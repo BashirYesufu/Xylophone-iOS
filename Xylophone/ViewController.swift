@@ -16,12 +16,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func keyPressed(_ sender: UIButton) {
-        playSound(with: sender.currentTitle!)
+        playSound(withFileName: sender.currentTitle!)
     }
     
     var player: AVAudioPlayer?
 
-    func playSound(with fileName: String) {
+    func playSound(withFileName fileName: String) {
         guard let path = Bundle.main.path(forResource: fileName, ofType: "wav") else {
             return }
         let url = URL(fileURLWithPath: path)
