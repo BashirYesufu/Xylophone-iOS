@@ -64,6 +64,9 @@
                                                         <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qa1-0L-hhF"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -89,6 +92,9 @@
                                                         <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ft7-Qz-oIE"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -114,6 +120,9 @@
                                                         <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wLp-qv-EIT"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -139,6 +148,9 @@
                                                         <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ORs-mY-JCs"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -164,6 +176,9 @@
                                                         <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5DQ-cv-B2N"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -189,6 +204,9 @@
                                                         <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E9j-Rx-nac"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
