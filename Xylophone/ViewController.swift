@@ -16,7 +16,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func keyPressed(_ sender: UIButton) {
+        sender.alpha /= 2
+        
         playSound(withFileName: sender.currentTitle!)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            sender.alpha *= 2
+        }
     }
     
     var player: AVAudioPlayer?
